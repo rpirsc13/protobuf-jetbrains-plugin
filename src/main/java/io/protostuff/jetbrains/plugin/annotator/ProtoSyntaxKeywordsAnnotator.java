@@ -1,4 +1,4 @@
-package io.protostuff.jetbrains.plugin;
+package io.protostuff.jetbrains.plugin.annotator;
 
 import com.intellij.lang.ASTNode;
 import com.intellij.lang.annotation.AnnotationHolder;
@@ -8,6 +8,8 @@ import com.intellij.openapi.editor.colors.TextAttributesKey;
 import com.intellij.openapi.editor.markup.TextAttributes;
 import com.intellij.psi.PsiElement;
 import io.protostuff.compiler.parser.ProtoParser;
+import io.protostuff.jetbrains.plugin.ProtoParserDefinition;
+import io.protostuff.jetbrains.plugin.ProtoSyntaxHighlighter;
 import io.protostuff.jetbrains.plugin.psi.EnumConstantNode;
 import io.protostuff.jetbrains.plugin.psi.KeywordsContainer;
 import org.jetbrains.annotations.NotNull;

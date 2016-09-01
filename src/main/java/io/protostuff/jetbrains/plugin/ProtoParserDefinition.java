@@ -177,6 +177,23 @@ public class ProtoParserDefinition implements ParserDefinition {
             ProtoLexer.BYTES
     );
 
+    public static final TokenSet SCALAR_TYPES = PSIElementTypeFactory.createTokenSet(ProtoLanguage.INSTANCE,
+            ProtoLexer.DOUBLE,
+            ProtoLexer.FLOAT,
+            ProtoLexer.INT32,
+            ProtoLexer.INT64,
+            ProtoLexer.UINT32,
+            ProtoLexer.UINT64,
+            ProtoLexer.SINT32,
+            ProtoLexer.SINT64,
+            ProtoLexer.FIXED32,
+            ProtoLexer.FIXED64,
+            ProtoLexer.SFIXED32,
+            ProtoLexer.SFIXED64,
+            ProtoLexer.BOOL,
+            ProtoLexer.STRING,
+            ProtoLexer.BYTES
+    );
     // tokens
 
     public static final TokenIElementType LCURLY = TOKEN_TYPES.get(ProtoLexer.LCURLY);

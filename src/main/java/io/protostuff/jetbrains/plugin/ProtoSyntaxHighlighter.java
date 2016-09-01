@@ -37,17 +37,17 @@ import static com.intellij.openapi.editor.colors.TextAttributesKey.createTextAtt
  */
 public class ProtoSyntaxHighlighter extends SyntaxHighlighterBase {
 
-    static final TextAttributesKey KEYWORD =
+    public static final TextAttributesKey KEYWORD =
             createTextAttributesKey("PROTO_KEYWORD", DefaultLanguageHighlighterColors.KEYWORD);
-    static final TextAttributesKey STRING =
+    public static final TextAttributesKey STRING =
             createTextAttributesKey("PROTO_STRING", DefaultLanguageHighlighterColors.STRING);
-    static final TextAttributesKey NUMBER =
+    public static final TextAttributesKey NUMBER =
             createTextAttributesKey("PROTO_NUMBER", DefaultLanguageHighlighterColors.NUMBER);
-    static final TextAttributesKey LINE_COMMENT =
+    public static final TextAttributesKey LINE_COMMENT =
             createTextAttributesKey("PROTO_LINE_COMMENT", DefaultLanguageHighlighterColors.LINE_COMMENT);
-    static final TextAttributesKey BLOCK_COMMENT =
+    public static final TextAttributesKey BLOCK_COMMENT =
             createTextAttributesKey("PROTO_BLOCK_COMMENT", DefaultLanguageHighlighterColors.BLOCK_COMMENT);
-    static final TextAttributesKey ENUM_CONSTANT =
+    public static final TextAttributesKey ENUM_CONSTANT =
             createTextAttributesKey("PROTO_ENUM_CONSTANT", DefaultLanguageHighlighterColors.CONSTANT);
 
     private static final TextAttributesKey[] EMPTY_KEYS = new TextAttributesKey[0];
